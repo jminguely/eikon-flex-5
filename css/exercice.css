@@ -29,9 +29,17 @@
   order: 2;
 }
 /* 3. exercice-baseline-3 */
-
+.exercice-baseline-3 .container-small {
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+  justify-content: center;
+}
 /* 4. exercice-flow-1 */
-
+.exercice-baseline-3 .container-small {
+  flex-flow: wrap row;
+}
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
