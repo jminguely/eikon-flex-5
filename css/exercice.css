@@ -62,7 +62,7 @@
   align-content: center;
 }
 
-.exercice-all-in-2 .element-pink , .element-blue {
+.exercice-all-in-2 .element-pink , .exercice-all-in-2 .element-blue {
   flex-grow: 1;
 }
 .exercice-all-in-2 .element-pink {
