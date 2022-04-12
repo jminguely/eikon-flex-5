@@ -5,6 +5,21 @@
 }
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  flex-wrap: wrap-reverse;
+}
+
+.exercice-baseline-2 .element {
+  flex-grow: 0.5;
+  width: 35%;
+}
+
+.exercice-baseline-2 .element-yellow {
+  order: 1;
+}
 
 /* 3. exercice-baseline-3 */
 
