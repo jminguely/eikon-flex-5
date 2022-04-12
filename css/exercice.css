@@ -42,4 +42,11 @@
 
 /* 6. exercice-all-in-1 */
 
+.exercice-all-in-1 .container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 /* 7. exercice-all-in-2 */
