@@ -7,8 +7,16 @@
 .exercice-baseline-1 .element {
   align-self: baseline;
 }
-/* 2. exercice-baseline-2 */
 
+/* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.exercice-baseline-2 .element {
+  align-self: baseline;
+}
 /* 3. exercice-baseline-3 */
 
 /* 4. exercice-flow-1 */
