@@ -37,8 +37,9 @@
   justify-content: center;
 }
 /* 4. exercice-flow-1 */
-.exercice-baseline-3 .container-small {
-  flex-flow: wrap row;
+.exercice-flow-1 .container-set {
+  display: flex;
+  flex-flow: row wrap;
 }
 /* 5. exercice-flow-2 */
 
