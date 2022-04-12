@@ -22,7 +22,10 @@
 
 
 /* 4. exercice-flow-1 */
-
+.exercice-flow-1 .container-set{
+  display: flex;
+  flex-flow: wrap row;
+}
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
