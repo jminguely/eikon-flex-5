@@ -17,7 +17,18 @@
 .exercice-baseline-2 .element {
   align-self: baseline;
 }
+
 /* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.exercice-baseline-3 .container .element {
+  align-self: baseline;
+}
 
 /* 4. exercice-flow-1 */
 
