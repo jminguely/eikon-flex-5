@@ -1,13 +1,69 @@
 /* 1. exercice-baseline-1 */
+.exercice-baseline-1 .container-small {
+  display: flex;
+  align-items: baseline;
+}
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container-small {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
+}
+
+.exercice-baseline-2 .element {
+  width: 50%;
+  box-sizing: border-box;
+}
 
 /* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container-small {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
 
 /* 4. exercice-flow-1 */
+.exercice-flow-1 .container-set {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 /* 5. exercice-flow-2 */
+.exercice-flow-2 .container-small {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.exercice-flow-2 .element-pink {
+flex-grow: 0.5;
+}
 
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container-set {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: space-between;
+  align-content: center;
+}
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container-small {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: baseline;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 2;
+  flex-grow: 1;
+}
