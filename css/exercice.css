@@ -6,36 +6,28 @@
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container-small {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
 }
 
-.exercice-baseline-2 .element-yellow {
-  align-items: baseline;
-  order: -2;
+.exercice-baseline-2 .element {
+  width: 50%;
+  box-sizing: border-box;
 }
 
-.exercice-baseline-2 .element-pink {
-  align-items: baseline;
-  order: -1;
-}
-
-.exercice-baseline-2 .element-blue {
-  align-items: baseline;
-  order: 1;
-}
-
-.exercice-baseline-2 .element-red {
-  align-items: baseline;
-  order: 2;
-}
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container-small {
   flex-direction: row;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  align-content: center;
   justify-content: center;
+  align-content: center;
 }
+
+
+
 /* 4. exercice-flow-1 */
 .exercice-flow-1 .container-set {
   display: flex;
@@ -51,9 +43,6 @@
 flex-grow: 0.5;
 }
 
-.exercice-flow-2 .element-red {
-  flex-grow: 0.5;
-  }
 /* 6. exercice-all-in-1 */
 .exercice-all-in-1 .container-set {
   display: flex;
