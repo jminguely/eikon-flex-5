@@ -47,6 +47,9 @@
   flex-flow: column-reverse wrap-reverse;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  justify-content: space-between;
 }
+
 
 /* 7. exercice-all-in-2 */
