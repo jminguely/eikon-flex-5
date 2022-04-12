@@ -7,7 +7,8 @@
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: baseline;
 }
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container {
@@ -38,3 +39,22 @@
 }
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-flow: wrap;
+  align-content: center;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 1;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-pink {
+  flex-grow: 1;
+}
