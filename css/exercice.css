@@ -37,7 +37,7 @@
 
 .exercice-flow-2 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 /* 6. exercice-all-in-1 */
