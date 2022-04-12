@@ -3,6 +3,7 @@
   display: flex;
   align-items: baseline;
 }
+
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container-small {
   display: flex;
@@ -26,13 +27,12 @@
   align-content: center;
 }
 
-
-
 /* 4. exercice-flow-1 */
 .exercice-flow-1 .container-set {
   display: flex;
   flex-flow: row wrap;
 }
+
 /* 5. exercice-flow-2 */
 .exercice-flow-2 .container-small {
   display: flex;
@@ -50,6 +50,7 @@ flex-grow: 0.5;
   justify-content: space-between;
   align-content: center;
 }
+
 /* 7. exercice-all-in-2 */
 .exercice-all-in-2 .container-small {
   display: flex;
