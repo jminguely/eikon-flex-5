@@ -4,7 +4,30 @@
   align-items: baseline;
 }
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container-small {
+  display: flex;
+  flex-direction: column;
+}
 
+.exercice-baseline-2 .element-yellow {
+  align-items: baseline;
+  order: -2;
+}
+
+.exercice-baseline-2 .element-pink {
+  align-items: baseline;
+  order: -1;
+}
+
+.exercice-baseline-2 .element-blue {
+  align-items: baseline;
+  order: 1;
+}
+
+.exercice-baseline-2 .element-red {
+  align-items: baseline;
+  order: 2;
+}
 /* 3. exercice-baseline-3 */
 
 /* 4. exercice-flow-1 */
