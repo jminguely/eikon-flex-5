@@ -35,6 +35,11 @@
 
 /* 5. exercice-flow-2 */
 
+.exercice-flow-2 .container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 /* 6. exercice-all-in-1 */
 
 /* 7. exercice-all-in-2 */
