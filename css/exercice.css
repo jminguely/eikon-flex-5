@@ -11,9 +11,13 @@
 .exercice-baseline-2 .container {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-items: baseline;
-  align-content: center;
+}
+
+.exercice-baseline-2 .element {
+  width: 35%;
+  flex-grow: 0.5;
 }
 
 /* 3. exercice-baseline-3 */
