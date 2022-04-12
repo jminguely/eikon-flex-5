@@ -41,4 +41,16 @@
 }
 
 /* 7. exercice-all-in-2 */
-.exercice-all-in-2 .
+.exercice-all-in-2 .container-small{
+  display: flex;
+  flex-flow: wrap row;
+  align-content: center;
+  align-items: baseline;
+}
+.exercice-all-in-2 .element-blue{
+  flex-grow: 1;
+}
+.exercice-all-in-2 .element-pink{
+  order: 1;
+  flex-grow: 1;
+}
