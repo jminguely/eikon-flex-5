@@ -1,5 +1,12 @@
 /* 1. exercice-baseline-1 */
+.exercice-baseline-1 .container {
+  display: flex;
+  flex-direction: row;
+}
 
+.exercice-baseline-1 .element {
+  align-self: baseline;
+}
 /* 2. exercice-baseline-2 */
 
 /* 3. exercice-baseline-3 */
