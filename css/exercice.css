@@ -8,14 +8,27 @@
 .exercice-baseline-2 .container-small {
   display: flex;
   align-items: baseline;
-  flex-direction: column;
+  flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
 }
 
+.exercice-baseline-2 .element {
+  flex-grow: 0.5;
+  width: 35%;
+} 
+
+
+.exercice-baseline-2 .element-yellow {
+  order: 1;
+}
+
+
+/* 
 .exercice-baseline-2 .element-pink {
   display: flex;
   align-items: baseline;
-}
+  align-content: center;
+} */
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container-small {
   display: flex;
