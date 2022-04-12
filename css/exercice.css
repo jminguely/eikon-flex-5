@@ -4,14 +4,22 @@
   align-items: baseline;
 }
 /* 2. exercice-baseline-2 */
-.exercice-baseline-2 .container-small{
+.exercice-baseline-2 .container-small {
   display: flex;
-  align-items: baseline;
-  flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+/* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container-small{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-content: center;
 }
 
-/* 3. exercice-baseline-3 */
 
 /* 4. exercice-flow-1 */
 
