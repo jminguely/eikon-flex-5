@@ -5,8 +5,24 @@
 }
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container-small {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
 
+.exercice-baseline-2 .element-pink {
+  display: flex;
+  align-items: baseline;
+}
 /* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container-small {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 /* 4. exercice-flow-1 */
 
