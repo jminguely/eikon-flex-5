@@ -1,27 +1,31 @@
 /* 1. exercice-baseline-1 */
 .exercice-baseline-1 .container {
- display: flex;
- align-items: baseline;
-} 
+  display: flex;
+  align-items: baseline;
+}
 
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
   align-items: baseline;
 }
 
-.exercice-baseline-2 .element-blue .element-yellow {
- align-content: flex-end;
+.exercice-baseline-2 .element {
+  display: flex;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  align-content: center;
 }
 
 /* 4. exercice-flow-1 */
@@ -42,20 +46,12 @@
 
 /* 6. exercice-all-in-1 */
 .exercice-all-in-1 .container {
- display: flex;
- flex-direction: column-reverse;
- justify-content: center;
- align-items: center;
- justify-content: space-between;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  justify-content: space-between;
 }
-
-
-.exercice-all-in-1 .element-green .element-gray {
- display: flex;
- flex-direction: row;
-}
-
-
 
 /* 7. exercice-all-in-2 */
 .exercice-all-in-2 .container {
@@ -63,8 +59,15 @@
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
+  flex-grow: 1;
+  align-items: baseline;
 }
 
 .exercice-all-in-2 .element-pink {
   order: 1;
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
 }
