@@ -27,7 +27,9 @@
 /* 4. exercice-flow-1 */
 .exercice-flow-1 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 /* 5. exercice-flow-2 */
