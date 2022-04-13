@@ -35,16 +35,36 @@
 /* 5. exercice-flow-2 */
 .exercice-flow-2 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 /* 6. exercice-all-in-1 */
 .exercice-all-in-1 .container {
  display: flex;
+ flex-direction: column-reverse;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-between;
 }
+
+
+.exercice-all-in-1 .element-green .element-gray {
+ display: flex;
+ flex-direction: row;
+}
+
+
 
 /* 7. exercice-all-in-2 */
 .exercice-all-in-2 .container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 1;
 }
