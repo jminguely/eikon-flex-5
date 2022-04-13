@@ -64,13 +64,9 @@
   display: flex;
   flex-flow: row wrap;
   align-content: center;
-
-}
-
-.exercice-all-in-2 .element-blue .element-red {
-  display: flex;
   align-items: baseline;
 }
+
 
 .exercice-all-in-2 .element-blue {
   display: flex;
