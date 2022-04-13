@@ -28,6 +28,12 @@
 }
 
 /* 4. exercice-flow-1 */
+.exercice-flow-1 .container-set {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
 
 /* 5. exercice-flow-2 */
 
