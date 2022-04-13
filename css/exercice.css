@@ -41,10 +41,25 @@
   align-items: flex-start;
 }
 
-.element {
+.exercice-flow-2 .element {
   flex-grow: 1;
 }
 
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+/* .element {
+  justify-content: space-between;
+} */
+
+/* .element-green {
+  order: 1;
+} */
 
 /* 7. exercice-all-in-2 */
