@@ -1,8 +1,18 @@
 /* 1. exercice-baseline-1 */
+.exercice-baseline-1 .container {
+  display: flex;
+  align-items: baseline;
+}
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+  
 
 /* 3. exercice-baseline-3 */
+
 
 /* 4. exercice-flow-1 */
 
