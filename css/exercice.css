@@ -34,8 +34,16 @@
   align-items: flex-start;
 }
 
-
 /* 5. exercice-flow-2 */
+.exercice-flow-2 .container-small {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.element {
+  flex-grow: 1;
+}
 
 /* 6. exercice-all-in-1 */
 
