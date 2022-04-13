@@ -1,13 +1,56 @@
+.container {
+  display: flex;
+}
 /* 1. exercice-baseline-1 */
+.exercice-baseline-1 .container {
+  align-items: baseline;
+}
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
 
+.exercice-baseline-2 .element {
+  flex-grow: 1;
+  width: 35%;
+}
 /* 3. exercice-baseline-3 */
-
+.exercice-baseline-3 .container {
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
 /* 4. exercice-flow-1 */
-
+.exercice-flow-1 .container {
+  flex-flow: row wrap;
+}
 /* 5. exercice-flow-2 */
-
+.exercice-flow-2 .container {
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
 /* 6. exercice-all-in-1 */
-
+.exercice-all-in-1 .container {
+  flex-flow: column-reverse wrap-reverse;
+  align-content: center;
+  justify-content: space-between;
+}
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: baseline;
+}
+
+.exercice-all-in-2 .element-pink {
+  flex-grow: 1;
+  order: 1;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
+}
