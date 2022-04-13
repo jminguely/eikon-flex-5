@@ -13,8 +13,7 @@
 }
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container {
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-content: center;
   justify-content: center;
   align-items: baseline;
