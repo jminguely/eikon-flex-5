@@ -25,6 +25,24 @@
 }
 
 /* 5. exercice-flow-2 */
+.exercice-flow-2 .container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+
+}
+
+.exercice-flow-2 .element-red {
+  display: flex;
+  flex-grow: 0.5;
+}
+
+.exercice-flow-2 .element-pink {
+  display: flex;
+  flex-grow: 0.5;
+}
+
+
 
 /* 6. exercice-all-in-1 */
 
