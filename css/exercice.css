@@ -9,18 +9,13 @@
 .exercice-baseline-2 .container-small {
   display: flex;
   flex-direction: row-reverse;
-  vertical-align: baseline;
+  align-items: baseline;
   flex-wrap: wrap-reverse;
 }
 
-.exercice-baseline-2 .element-blue {
+.exercice-baseline-2 .element {
+  width: 35%;
   flex-grow: 1;
-  align-self: flex-start; 
-}
-
-.exercice-baseline-2 .element-yellow {
-  flex-grow: 1;
-  align-self: flex-start; 
 }
 
 /* 3. exercice-baseline-3 */
