@@ -2,11 +2,16 @@
 .exercice-baseline-1 .container-small {
   display: flex;
   flex-direction: row;
-  align-items: center;
   align-items: baseline;
 }
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container-small {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  flex-wrap: wrap-reverse;
+}
 
 /* 3. exercice-baseline-3 */
 
