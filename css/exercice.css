@@ -28,6 +28,11 @@
   
 }
 /* 4. exercice-flow-1 */
+.exercice-flow-1 .container{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
 
 /* 5. exercice-flow-2 */
 
