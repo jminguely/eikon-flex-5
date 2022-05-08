@@ -52,3 +52,19 @@
 
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.exercice-all-in-2 .container .element-blue,
+.exercice-all-in-2 .container .element-pink{
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .container .element-pink{
+  order: 1;
+}
